@@ -9,8 +9,6 @@ from PIL import Image
 import pdf2image
 import google.generativeai as genai
 import logging
-print("Eidted by Shrutika")
-print("This is ATS to verfiy the resume")
 
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
