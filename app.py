@@ -10,6 +10,8 @@ import pdf2image
 import google.generativeai as genai
 import logging
 
+print("This is latest edit")
+
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 logging.info("Server Started")
